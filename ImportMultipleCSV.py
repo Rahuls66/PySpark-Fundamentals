@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName('Import CSV Exercise').getOrCreate()
+spark = SparkSession.builder.appName('Import Multiple CSV Exercise').getOrCreate()
 
 path = ['<filePath1>','<filePath2>']
 
